@@ -110,6 +110,7 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
     fig.savefig("confusion_matrix.png")
   
 # Make a function to predict on images and plot them (works with multi-class)
+
 def pred_and_plot(model, filename, class_names):
   """
   Imports an image located at filename, makes a prediction on it with
